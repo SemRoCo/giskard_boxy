@@ -14,4 +14,5 @@
   <buildtool_depend>catkin</buildtool_depend>
   <!--run_depend>giskard_ros</run_depend-->
   <run_depend>iai_boxy_sim</run_depend>
+  <run_depend>giskard_ros</run_depend>
 </package>
