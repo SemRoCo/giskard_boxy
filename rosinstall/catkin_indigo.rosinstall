@@ -16,6 +16,10 @@
     uri: https://github.com/SemRoCo/giskard_ros.git
     version: master
 - git:
+    local-name: giskard_msgs
+    uri: https://github.com/SemRoCo/giskard_msgs.git
+    version: master
+- git:
     local-name: iai_boxy_sim
     uri: https://github.com/code-iai/iai_boxy_sim.git
     version: master
