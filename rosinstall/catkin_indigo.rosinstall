@@ -10,6 +10,11 @@
 - git:
     local-name: giskard_boxy
     uri: https://github.com/SemRoCo/giskard_boxy.git
+    version: master
+- git:
+    local-name: giskard_ros
+    uri: https://github.com/SemRoCo/giskard_ros.git
+    version: master
 - git:
     local-name: iai_boxy_sim
     uri: https://github.com/code-iai/iai_boxy_sim.git
