@@ -3,9 +3,11 @@
   <arg name="plot" default="false" />
   <arg name="rviz" default="true" />
 
-  <include file="$(find giskard_boxy)/launch/boxy.launch" >
-    <arg name="sim" value="$(arg sim)" />
-  </include>
+  <group if="$(arg sim)" >
+    <include file="$(find iai_boxy_sim)/launch/boxy.launch" />
+  </group>
+
+  <!-- TODO: instructions to start real Boxy -->
 
   <include file="$(find giskard_boxy)/launch/whole_body_controller.launch" >
     <arg name="sim" value="$(arg sim)" />
