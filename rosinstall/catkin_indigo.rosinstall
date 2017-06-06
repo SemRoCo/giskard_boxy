@@ -20,8 +20,8 @@
     version: master
 - git:
     local-name: iai_robots
-    uri: https://github.com/airballking/iai_robots.git
-    version: boxy_odom_joints
+    uri: https://github.com/code-iai/iai_robots.git
+    version: master
 - git:
     local-name: qpoases
     uri: https://github.com/SemRoCo/qpOASES.git
