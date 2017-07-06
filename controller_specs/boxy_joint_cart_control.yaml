@@ -292,6 +292,18 @@ scope:
                 - 0
                 - 0
                 - 0.016
+  - right_arm_kms40_joint_frame:
+      frame-mul:
+        - frame:
+            - quaternion:
+                - 0
+                - 0
+                - 1
+                - -1.034115535551072e-13
+            - vector3:
+                - 0
+                - 0
+                - 0
   - right_arm_kms40_trans_frame_out_frame:
       frame-mul:
         - frame:
@@ -388,6 +400,7 @@ scope:
         - right_arm_arm_cabling_adaptor_joint_frame
         - right_arm_adapter_iso50_kms40_joint_frame
         - right_arm_adapter_iso50_kms40_trans_frame_out_frame
+        - right_arm_kms40_joint_frame
         - right_arm_kms40_trans_frame_out_frame
         - right_arm_adapter_kms40_fwk050_trans_frame_out_frame
         - right_arm_fwk_fwa_050_trans_frame_out_frame
